@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 29, 36);
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.svgCanvas {
+    fill: white;
+    background-color: white;
+    border-radius: 4px;
+
+}
+
+circle {
+    border-style: solid;
+    border-color: black;
+    border-width:  10px;
+    outline: 1.5px solid rgba(0, 0, 0, 0.616);
+    border-radius: 100%;
+    outline-offset: -1px;
+}
+
+#blue-circle:hover {
+    fill: rgba(94, 94, 248, 0.904)
+}
+#red-circle:hover {
+    fill: rgba(248, 27, 27, 0.966)
+}
+
+#doping {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#doping-rect {
+    outline: 1.5px solid rgba(0, 0, 0, 0.616);
+}
+
+#tooltip {
+    width: 17em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(51, 50, 50, 0.596);
+    border-style: solid;
+    border-color: black;
+    outline: 1.5px solid rgba(0, 0, 0, 0.616);
+
+    transition-property: opacity;
+    transition-duration: 0.05s;
+}
+#tooltip p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
